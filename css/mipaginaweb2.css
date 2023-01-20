@@ -1,0 +1,83 @@
+body{
+	background-color: grey;
+}
+
+.container
+{
+	border-radius: 15px;
+	background: white;
+	width:95%;
+	margin:auto;
+}
+
+.menu
+{
+	float: right;
+	padding:10px;
+	color: green;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.menu li
+{
+	display: inline-block;
+	padding: 10px;
+}
+ 
+.slider img
+{
+	width:100%;
+}
+
+.menu a:hover
+{
+	background-color:black;
+	color: white;
+	float: right;
+}
+
+h2 
+{
+	border-top: 1px solid blue; 
+	border-bottom: 1px solid blue;
+	color:green;
+	border-radius: 50px 20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.row
+{
+	color:black;
+}
+
+.col
+{
+	display:inline-block;
+	width: 26.5%;
+ 	margin-bottom:1px;
+ 	text-align:center;
+ 	line-height:25px;
+	padding: 40px;
+	margin: auto;
+}
+
+.col img
+{box-shadow: 10px 10px;}
+
+.col h2
+{
+	text-align: center;
+}
+
+
+.top
+{
+	color:blue;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.footer
+{
+	overflow: hidden;
+}
